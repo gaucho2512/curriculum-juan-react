@@ -1,5 +1,5 @@
 import React from 'react';
-//import FotoPerfil from '../assets/imagen-picky.png'
+
 import { Link } from 'react-router-dom'
 
 
@@ -7,13 +7,6 @@ const SeccionSobreMi = () => {
   return (
       <>
         <div className="row">
-
-            <div className="col-md-6 col-sm-6 contenedor-seccion-sobre-mi-right">
-                <div className='seccion-sobre-mi-right'>
-                  {/*   <img src={FotoPerfil} alt="imagen-perfil" /> */}
-                </div>
-            </div>
-
             <div className="col-md-6 col-sm-6 contenedor-seccion-sobre-mi-left">
                 <div className='seccion-sobre-mi-left'>
                     <h2>SOBRE MÍ</h2>
@@ -29,9 +22,12 @@ const SeccionSobreMi = () => {
                         y por eso tengo la convicción que trabajar en ambientes con buen 
                         clima laboral hacen armonioso y agradable practicar esta profesión
                         que tanto aprecio y es parte de mi vida.</p>
+                </div>
+            </div>
 
-                     <Link to="/contacto" className='btn-contactarme'>Contactarme</Link>   
-
+            <div className="col-md-6 col-sm-6 contenedor-seccion-sobre-mi-right">
+                <div className='seccion-sobre-mi-right'>
+                   <h1>HOLA</h1>
                 </div>
             </div>
         </div>
